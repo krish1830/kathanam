@@ -1,0 +1,15 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512" width="512" height="512">
+  <title>Kathanam</title>
+  <!-- top key: slate with Enter arrow, right side angled -->
+  <path d="M96 40 H412 Q462 40 436 82 L352 222 Q342 238 322 238 H96 Q64 238 64 206 V72 Q64 40 96 40 Z" fill="#5B6472"/>
+  <path d="M96 222 H330 L322 238 H96 Q64 238 64 206 V196 Q64 222 96 222Z" fill="#454C57" opacity=".5"/>
+  <path d="M262 92 V150 Q262 166 246 166 H160" fill="none" stroke="#fff" stroke-width="26" stroke-linecap="round" stroke-linejoin="round"/>
+  <path d="M190 130 L148 166 L190 202" fill="none" stroke="#fff" stroke-width="26" stroke-linecap="round" stroke-linejoin="round"/>
+  <!-- bottom key: coral left, slate diagonal leg -->
+  <clipPath id="b"><path d="M96 258 H330 Q350 258 362 276 L440 404 Q462 440 420 472 H96 Q64 472 64 440 V290 Q64 258 96 258 Z"/></clipPath>
+  <g clip-path="url(#b)">
+    <rect x="0" y="240" width="512" height="272" fill="#F27B5E"/>
+    <path d="M318 258 H360 L470 440 V500 H330 L246 366 Z" fill="#5B6472"/>
+    <rect x="0" y="456" width="512" height="20" fill="#000" opacity=".12"/>
+  </g>
+</svg>
