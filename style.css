@@ -15,3 +15,6 @@ footer{padding:28px 0;color:#777;font-size:14px;text-align:center}
 .free{font-size:20px;font-weight:700;color:#1a8a4a;margin:18px 0 10px}.btn2{display:inline-block;background:#ffdd00;color:#222;padding:10px 22px;border-radius:8px;font-weight:600;text-decoration:none;margin:4px}.btn2:hover{background:#f5cf00}
 
 .brand{display:inline-flex;align-items:center;gap:8px}.hero h1 .logo{height:96px;max-width:100%}.meaning{font-size:1.05rem;opacity:.85;margin:.2em 0}
+
+.dl{display:flex;gap:12px;justify-content:center;flex-wrap:wrap}.dl .btn{font-size:17px;padding:14px 24px}
+#install h3{margin:22px 0 6px}
