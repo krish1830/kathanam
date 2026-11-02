@@ -1,61 +1,208 @@
-<!doctype html><html lang="en"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1">
-<title>Kathanam — Free screenwriting for Windows</title><link rel="icon" href="favicon.ico" sizes="16x16 32x32 48x48"><link rel="icon" href="favicon.svg" type="image/svg+xml"><link rel="apple-touch-icon" href="apple-touch-icon.png"><link rel="icon" type="image/png" sizes="192x192" href="icon-192.png"><link rel="icon" type="image/png" sizes="512x512" href="icon-512.png"><link rel="manifest" href="site.webmanifest"><meta name="theme-color" content="#5B6472"><meta name="description" content="Free Hollywood-format screenwriting app for Windows with Indian-language dialogue.">
-<link rel="stylesheet" href="style.css"></head><body>
-<nav><div class="wrap"><b class="brand"><img src="img/icon.svg" alt="" width="26" height="26"> Kathanam</b><span><a href="#features">Features</a><a href="#install">Install</a><a href="#shortcuts">Shortcuts</a><a href="#faq">FAQ</a></span></div></nav>
-<header class="hero"><div class="wrap">
-<h1><img class="logo" src="img/logo.svg" alt="Kathanam"></h1><p class="meaning"><b>Kathanam</b> (కథనం) means “screenplay” in Telugu.</p><p class="tag">Write your feature in true Hollywood format — in English, Telugu, Tamil, Hindi and more.</p>
-<div class="dl"><a class="btn" href="https://github.com/krish1830/kathanam/releases/latest/download/Kathanam-Setup.exe">Download for Windows</a><a class="btn" href="https://github.com/krish1830/kathanam/releases/latest/download/Kathanam-mac.zip">Download for macOS</a><a class="btn" href="https://github.com/krish1830/kathanam/releases/latest/download/Kathanam-x86_64.AppImage">Download for Linux</a></div>
-<p class="free">Free forever. No fee, no sign-up, no registration.</p>
-<a class="btn2" href="https://buymeacoffee.com/krishpaluri">☕ Buy me a coffee</a>
-<p class="small">Free · Version 1.2.0 · Windows 10/11 64-bit (<a href="https://github.com/krish1830/kathanam/releases/latest/download/Kathanam-win.zip">portable zip</a>) · macOS Apple Silicon (<a href="https://github.com/krish1830/kathanam/releases/latest/download/Kathanam-mac-intel.zip">Intel Mac version</a>) · Linux 64-bit (<a href="https://github.com/krish1830/kathanam/releases/latest/download/Kathanam-amd64.deb">.deb for Ubuntu/Debian</a>)</p>
-<img class="shot" src="img/light.png" alt="Kathanam showing a script page with Telugu and Kannada dialogue">
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1">
+<title>Kathanam — Free, offline screenwriting for Windows, macOS &amp; Linux</title>
+<meta name="description" content="Kathanam (కథనం, “screenplay” in Telugu) is a free, offline screenwriting app. Write the story, shape the scene order, then the screenplay in true industry format — in English, Telugu, Tamil, Hindi and more. No fee, no sign-up.">
+<link rel="canonical" href="https://krish1830.github.io/kathanam/">
+<meta name="theme-color" content="#0E1014" media="(prefers-color-scheme: dark)">
+<meta name="theme-color" content="#FAF8F5" media="(prefers-color-scheme: light)">
+<meta property="og:type" content="website">
+<meta property="og:site_name" content="Kathanam">
+<meta property="og:title" content="Kathanam — Free, offline screenwriting">
+<meta property="og:description" content="Story, scene order, screenplay. Industry-standard formatting and production tools. Free forever, no sign-up, works fully offline.">
+<meta property="og:url" content="https://krish1830.github.io/kathanam/">
+<meta property="og:image" content="https://krish1830.github.io/kathanam/img/og-card.png">
+<meta property="og:image:width" content="1200"><meta property="og:image:height" content="630">
+<meta name="twitter:card" content="summary_large_image">
+<meta name="twitter:image" content="https://krish1830.github.io/kathanam/img/og-card.png">
+<link rel="icon" href="favicon.ico" sizes="16x16 32x32 48x48"><link rel="icon" href="favicon.svg" type="image/svg+xml"><link rel="apple-touch-icon" href="apple-touch-icon.png"><link rel="manifest" href="site.webmanifest">
+<link rel="preload" href="fonts/inter.woff2" as="font" type="font/woff2" crossorigin>
+<link rel="preload" href="fonts/fraunces.woff2" as="font" type="font/woff2" crossorigin>
+<link rel="stylesheet" href="style.css">
+<script type="application/ld+json">{"@context":"https://schema.org","@type":"SoftwareApplication","name":"Kathanam","applicationCategory":"Multimedia","operatingSystem":"Windows, macOS, Linux","offers":{"@type":"Offer","price":"0","priceCurrency":"USD"},"url":"https://krish1830.github.io/kathanam/"}</script>
+</head>
+<body>
+<a class="skip" href="#main">Skip to content</a>
+
+<!-- ===== NAV ===== -->
+<header class="nav"><div class="wrap nav-in">
+  <a class="brand" href="#top"><img src="img/icon.svg" alt="" width="28" height="28"><span>Kathanam</span></a>
+  <nav aria-label="Main"><a href="#workflow">Workflow</a><a href="#features">Features</a><a href="#download">Download</a><a href="#shortcuts">Shortcuts</a><a href="#faq">FAQ</a></nav>
+  <a class="btn btn-sm" href="#download">Download</a>
 </div></header>
-<section id="features"><div class="wrap"><h2>Features</h2><div class="grid">
-<div class="card"><h3>Hollywood format</h3><p>Real pages with 1.5" left and 1" margins, page numbers, and page breaks that match the PDF.</p></div>
-<div class="card"><h3>Trelby-style shortcuts</h3><p>Enter, Tab and Alt-key element switching work just like Trelby.</p></div>
-<div class="card"><h3>Indian-language dialogue</h3><p>Write dialogue in Telugu, Tamil, Kannada, Hindi and other scripts alongside English.</p></div>
-<div class="card"><h3>Title page &amp; author footer</h3><p>Generate a title page, show your name and contact in a footer, and edit scene numbers by hand.</p></div>
-<div class="card"><h3>Scene types</h3><p>Tag scenes as Montage, Song, Action, Flashback, Dream, Intercut or your own type.</p></div>
-<div class="card"><h3>Script reports</h3><p>Breakdowns by location, character and scene type.</p></div>
-<div class="card"><h3>Export anywhere</h3><p>PDF, Final Draft (.fdx), Fountain, Word (.docx), Trelby and plain text.</p></div>
-<div class="card"><h3>Never lose a page</h3><p>Autosave, crash recovery and rolling backups you can restore from the File menu.</p></div>
-<div class="card"><h3>Dark mode</h3><p>Dark pages for late-night writing; PDFs and prints stay on white paper.</p></div>
-</div><img class="shot" src="img/dark.png" alt="Kathanam in dark mode"></div></section>
-<section id="install" class="alt"><div class="wrap"><h2>Install</h2>
-<h3>Windows</h3><ol>
-<li>Click <b>Download for Windows</b> and run <code>Kathanam-Setup.exe</code>.</li>
-<li>If Windows shows “Windows protected your PC”, click <b>More info</b>, then <b>Run anyway</b>.</li>
-<li>Follow the installer. Kathanam appears in your Start menu.</li>
-<li>To update, just run the newer installer — your scripts, settings and backups are kept.</li></ol>
-<h3>macOS</h3><ol>
-<li>Click <b>Download for macOS</b> (Apple Silicon: M1 or newer). For an older Intel Mac, use the <a href="https://github.com/krish1830/kathanam/releases/latest/download/Kathanam-mac-intel.zip">Intel version</a>.</li>
-<li>Open the zip and drag <b>Kathanam</b> into your Applications folder.</li>
-<li>The app isn't signed by Apple yet, so the first time, <b>right-click</b> Kathanam and choose <b>Open</b>, then <b>Open</b> again. If macOS still blocks it, go to <b>System Settings → Privacy &amp; Security</b> and click <b>Open Anyway</b>.</li></ol>
-<h3>Linux</h3><ol>
-<li><b>AppImage (any distro):</b> download it, then run <code>chmod +x Kathanam-x86_64.AppImage</code> and <code>./Kathanam-x86_64.AppImage</code>.</li>
-<li><b>Ubuntu / Debian:</b> download the <a href="https://github.com/krish1830/kathanam/releases/latest/download/Kathanam-amd64.deb">.deb</a> and install it with <code>sudo apt install ./Kathanam-amd64.deb</code>.</li></ol>
-</div></section>
-<section id="shortcuts"><div class="wrap"><h2>Keyboard shortcuts</h2><table>
-<tr><th>Keys</th><th>Action</th></tr>
-<tr><td>Enter / Tab</td><td>Next element (Trelby rules); Tab on an empty line changes its type</td></tr>
-<tr><td>Alt+S</td><td>Scene heading</td></tr><tr><td>Alt+A</td><td>Action</td></tr>
-<tr><td>Alt+C</td><td>Character</td></tr><tr><td>Alt+D</td><td>Dialogue</td></tr>
-<tr><td>Alt+P</td><td>Parenthetical</td></tr><tr><td>Alt+T</td><td>Transition</td></tr>
-<tr><td>Alt+H</td><td>Shot</td></tr><tr><td>Alt+B</td><td>Act break</td></tr>
-<tr><td>Alt+N</td><td>Add note</td></tr><tr><td>Alt+G / Ctrl+G</td><td>Go to scene / page</td></tr>
-<tr><td>F8</td><td>Spell check</td></tr><tr><td>Ctrl+N / O / S</td><td>New / Open / Save</td></tr>
-<tr><td>Ctrl+P</td><td>Export PDF</td></tr><tr><td>Ctrl+W / Ctrl+Q</td><td>Close script / Quit</td></tr></table></div></section>
-<section id="support"><div class="wrap"><h2>Support</h2><p>Kathanam is free forever and always will be. If it helps your writing and you want to say thanks, you can buy me a coffee. It's completely voluntary, and every feature works without it.</p><a class="btn2" href="https://buymeacoffee.com/krishpaluri">☕ Buy me a coffee</a></div></section>
-<section id="new"><div class="wrap"><h2>What's new in 1.2</h2><ul>
-<li>Industry-standard 55-line pages, optional scene (CONTINUED) and a revision label on every page</li>
-<li>Omit scenes (the number is kept), next revision in standard colour order, locked A/B pages</li>
-<li>Open and save Final Draft (.fdx) files, import plain-text scripts</li>
-<li>Beat-sheet templates, colour-label meanings, a locations bible and a drag-and-drop outline</li>
-<li>Compare two drafts side by side and print Sides for auditions</li>
-<li>Your own keyboard shortcuts (Trelby keys stay the default) and comments with author names</li>
-<li>Stage-play layout and a two-column AV script view with PDF export</li></ul></div></section>
-<section id="faq" class="alt"><div class="wrap"><h2>FAQ</h2>
+
+<main id="main">
+<!-- ===== HERO ===== -->
+<section class="hero" id="top">
+  <div class="glow" aria-hidden="true"></div>
+  <div class="wrap hero-in">
+    <p class="eyebrow reveal"><span class="pill">Free forever</span> No fee · No sign-up · Works offline</p>
+    <h1 class="reveal">From story to screen,<br><em>beautifully formatted.</em></h1>
+    <p class="lede reveal">Kathanam takes you from the first idea to the final shooting script — story, scene order, then screenplay — in true industry format, in English, Telugu, Tamil, Hindi and more.</p>
+    <div class="cta reveal">
+      <a class="btn btn-lg" id="main-dl" href="https://github.com/krish1830/kathanam/releases/latest/download/Kathanam-Setup.exe">
+        <svg aria-hidden="true" width="18" height="18" viewBox="0 0 24 24"><path fill="currentColor" d="M11 3h2v11.2l4.3-4.3 1.4 1.4L12 18l-6.7-6.7 1.4-1.4 4.3 4.3zM4 19h16v2H4z"/></svg>
+        <span id="main-dl-label">Download for Windows</span></a>
+      <a class="btn btn-ghost btn-lg" href="#download">Other platforms</a>
+    </div>
+    <p class="meta reveal">Version <span class="ver">1.2.0</span> · Windows · macOS · Linux · <a href="https://buymeacoffee.com/krishpaluri">☕ Buy me a coffee</a></p>
+    <figure class="device reveal">
+      <div class="device-bar" aria-hidden="true"><i></i><i></i><i></i><span>Kathanam — My Screenplay.spw</span></div>
+      <picture><source srcset="img/dark.webp" media="(prefers-color-scheme: dark)" type="image/webp"><source srcset="img/light.webp" type="image/webp"><img src="img/light.png" width="1280" height="872" alt="Kathanam showing a formatted screenplay page with Telugu and Kannada dialogue" fetchpriority="high"></picture>
+    </figure>
+  </div>
+</section>
+
+<!-- ===== NAME STORY ===== -->
+<section class="name">
+  <div class="wrap name-in reveal">
+    <p class="telugu" lang="te">కథనం</p>
+    <div><p class="pron">ka·tha·nam &nbsp;<span>/ noun, Telugu</span></p>
+    <p class="def">The craft of telling a story on screen — <em>screenplay</em>. The way a tale unfolds, scene by scene.</p>
+    <p class="note">The logo is two keycaps stacked into a <b>K</b>, with an Enter arrow: every screenplay is written one keystroke, one return, at a time.</p></div>
+  </div>
+</section>
+
+<!-- ===== WORKFLOW ===== -->
+<section id="workflow" class="section">
+  <div class="wrap">
+    <header class="head reveal"><p class="kicker">One project · Three linked stages</p><h2>Write the way films are really made.</h2><p>Story first, then the scene order, then the screenplay with dialogue. Each stage feeds the next and stays in sync.</p></header>
+    <div class="steps">
+      <article class="step reveal"><span class="num">01</span><h3>Story</h3><p>A calm page for the story or treatment. Split it into the opening, the interval point and the climax, with prompts for logline, characters and themes, and notes beside the text.</p></article>
+      <article class="step reveal"><span class="num">02</span><h3>Scene order</h3><p>The one-line order: a numbered, sequential list of scenes. Turn story lines into scenes, drag them into place, mark acts and the interval, with a running scene count and runtime estimate.</p></article>
+      <article class="step reveal"><span class="num">03</span><h3>Screenplay</h3><p>One click turns the scene order into scene headings. Then write the dialogue, shots and transitions. Reorder on either side and the other follows.</p></article>
+    </div>
+  </div>
+</section>
+
+<!-- ===== FEATURES ===== -->
+<section id="features" class="section alt">
+  <div class="wrap">
+    <div class="split reveal">
+      <div><p class="kicker">Professional formatting</p><h2>Pages that read like the real thing.</h2>
+        <ul class="ticks"><li>Courier 12pt, 1.5″ left and 1″ margins, 55 lines per page</li><li>(MORE), (CONT’D) and optional (CONTINUED) at page breaks</li><li>Trelby-style Enter, Tab and Alt shortcuts — or your own</li><li>Dual dialogue, stage-play layout and two-column AV scripts</li><li>Title page with your choice of font, size and an image</li><li>Author footer, editable and locked scene numbers (12A, 12B)</li></ul></div>
+      <div class="page" aria-hidden="true">
+        <p class="sh">1&nbsp;&nbsp;&nbsp;INT. RAILWAY STATION – NIGHT</p>
+        <p class="ac">Rain hammers the tin roof. LAKSHMI (30s) waits under a flickering lamp, a suitcase at her feet.</p>
+        <p class="ch">LAKSHMI</p><p class="pa">(softly)</p><p class="di">ఈ రైలు వస్తుందా?</p>
+        <p class="ch">STATION MASTER</p><p class="di">Last train left an hour ago.</p>
+        <p class="tr">CUT TO:</p>
+      </div>
+    </div>
+
+    <div class="grid">
+      <article class="card reveal"><h3>Indian-language dialogue</h3><p>Write in Telugu, Tamil, Kannada, Hindi and other scripts alongside English.</p></article>
+      <article class="card reveal"><h3>Revisions</h3><p>Blue, Pink, Yellow and beyond in standard order, margin asterisks, OMITTED scenes and locked pages.</p></article>
+      <article class="card reveal"><h3>Story planning</h3><p>Corkboard, beat templates (3-Act, Save the Cat, Hero’s Journey), named scene colours and a locations bible.</p></article>
+      <article class="card reveal"><h3>Production tools</h3><p>Breakdown reports by character, location and scene, plus printable sides for auditions.</p></article>
+      <article class="card reveal"><h3>Compare drafts</h3><p>See two drafts side by side, with additions and removals highlighted.</p></article>
+      <article class="card reveal"><h3>Every format</h3><p>Open and save Final Draft (.fdx) and Fountain; export PDF, Word, Trelby and plain text.</p></article>
+      <article class="card reveal"><h3>Never lose a page</h3><p>Autosave, crash recovery, rolling backups and up to 60 restorable versions.</p></article>
+      <article class="card reveal"><h3>Focus &amp; dark mode</h3><p>Dark pages for late nights; PDFs and prints stay on white paper.</p></article>
+      <article class="card reveal"><h3>Scene types</h3><p>Montage, Song, Action, Flashback, Dream, Intercut or your own.</p></article>
+    </div>
+  </div>
+</section>
+
+<!-- ===== DARK SHOT ===== -->
+<section class="section showcase">
+  <div class="wrap">
+    <header class="head reveal"><p class="kicker">Built for late nights</p><h2>Easy on the eyes.</h2></header>
+    <figure class="device reveal"><div class="device-bar" aria-hidden="true"><i></i><i></i><i></i><span>Kathanam — Dark mode</span></div><picture><source srcset="img/dark.webp" type="image/webp"><img src="img/dark.png" width="1280" height="872" loading="lazy" alt="Kathanam in dark mode with dark script pages"></picture></figure>
+  </div>
+</section>
+
+<!-- ===== PRIVATE & FREE ===== -->
+<section class="section">
+  <div class="wrap pillars">
+    <article class="reveal"><h3>Offline &amp; private</h3><p>Everything runs on your computer. No account, no cloud, no tracking. Your scripts stay on your disk in an open, readable format.</p></article>
+    <article class="reveal"><h3>Free, with no limits</h3><p>No fee, no sign-up, no page limits, no watermarks. Every feature, for everyone.</p></article>
+    <article class="reveal"><h3>Windows, macOS, Linux</h3><p>The same app and the same files on every desktop. Updates install over the old version and keep your work.</p></article>
+  </div>
+</section>
+
+<!-- ===== WHAT'S NEW (edit this section for each release) ===== -->
+<section id="new" class="section alt">
+  <div class="wrap narrow reveal">
+    <p class="kicker">Release notes</p>
+    <h2>What’s new in 1.2</h2>
+    <ul class="ticks">
+      <li>Industry-standard 55-line pages, optional scene (CONTINUED) and a revision label on every page</li>
+      <li>Omit scenes (the number is kept), next revision in standard colour order, locked A/B pages</li>
+      <li>Open and save Final Draft (.fdx) files, import plain-text scripts</li>
+      <li>Beat-sheet templates, colour-label meanings, a locations bible and a drag-and-drop outline</li>
+      <li>Compare two drafts side by side and print Sides for auditions</li>
+      <li>Your own keyboard shortcuts (Trelby keys stay the default) and comments with author names</li>
+      <li>Stage-play layout and a two-column AV script view with PDF export</li>
+    </ul>
+    <p class="small"><a href="https://github.com/krish1830/kathanam/releases">All versions →</a></p>
+  </div>
+</section>
+<!-- ===== /WHAT'S NEW ===== -->
+
+<!-- ===== DOWNLOAD ===== -->
+<section id="download" class="section">
+  <div class="wrap">
+    <header class="head reveal"><p class="kicker">Version <span class="ver">1.2.0</span> · Free</p><h2>Download Kathanam.</h2><p>Installing a new version updates the old one in place. Your scripts, settings and backups are kept.</p></header>
+    <div class="dls">
+      <article class="dl reveal" data-os="win"><h3>Windows</h3><p>Windows 10/11, 64-bit</p><a class="btn" href="https://github.com/krish1830/kathanam/releases/latest/download/Kathanam-Setup.exe">Download installer</a><a class="alt-link" href="https://github.com/krish1830/kathanam/releases/latest/download/Kathanam-win.zip">Portable .zip</a></article>
+      <article class="dl reveal" data-os="mac"><h3>macOS</h3><p>Apple Silicon (M1 or newer)</p><a class="btn" href="https://github.com/krish1830/kathanam/releases/latest/download/Kathanam-mac.zip">Download for Mac</a><a class="alt-link" href="https://github.com/krish1830/kathanam/releases/latest/download/Kathanam-mac-intel.zip">Intel Mac version</a></article>
+      <article class="dl reveal" data-os="linux"><h3>Linux</h3><p>64-bit, any distro</p><a class="btn" href="https://github.com/krish1830/kathanam/releases/latest/download/Kathanam-x86_64.AppImage">Download AppImage</a><a class="alt-link" href="https://github.com/krish1830/kathanam/releases/latest/download/Kathanam-amd64.deb">.deb for Ubuntu / Debian</a></article>
+    </div>
+
+    <div id="install" class="install reveal">
+      <h3>Installing</h3>
+      <div class="tabs" role="tablist" aria-label="Install instructions">
+        <button role="tab" aria-selected="true" aria-controls="i-win" id="t-win">Windows</button>
+        <button role="tab" aria-selected="false" aria-controls="i-mac" id="t-mac">macOS</button>
+        <button role="tab" aria-selected="false" aria-controls="i-linux" id="t-linux">Linux</button>
+      </div>
+      <ol id="i-win" role="tabpanel" aria-labelledby="t-win">
+        <li>Click <b>Download installer</b> and run <code>Kathanam-Setup.exe</code>.</li>
+        <li>If Windows shows “Windows protected your PC”, click <b>More info</b>, then <b>Run anyway</b>.</li>
+        <li>Follow the installer. Kathanam appears in your Start menu.</li>
+        <li>To update, just run the newer installer — your scripts, settings and backups are kept.</li></ol>
+      <ol id="i-mac" role="tabpanel" aria-labelledby="t-mac" hidden>
+        <li>Click <b>Download for Mac</b> (Apple Silicon: M1 or newer). For an older Intel Mac, use the <a href="https://github.com/krish1830/kathanam/releases/latest/download/Kathanam-mac-intel.zip">Intel version</a>.</li>
+        <li>Open the zip and drag <b>Kathanam</b> into your Applications folder.</li>
+        <li>The app isn’t signed by Apple yet, so the first time, <b>right-click</b> Kathanam and choose <b>Open</b>, then <b>Open</b> again. If macOS still blocks it, go to <b>System Settings → Privacy &amp; Security</b> and click <b>Open Anyway</b>.</li>
+        <li>If macOS says Kathanam “is damaged”, run <code>xattr -cr /Applications/Kathanam.app</code> once in Terminal.</li></ol>
+      <ol id="i-linux" role="tabpanel" aria-labelledby="t-linux" hidden>
+        <li><b>AppImage (any distro):</b> download it, then run <code>chmod +x Kathanam-x86_64.AppImage</code> and <code>./Kathanam-x86_64.AppImage</code>.</li>
+        <li><b>Ubuntu / Debian:</b> download the <a href="https://github.com/krish1830/kathanam/releases/latest/download/Kathanam-amd64.deb">.deb</a> and install it with <code>sudo apt install ./Kathanam-amd64.deb</code>.</li></ol>
+    </div>
+  </div>
+</section>
+
+<!-- ===== SHORTCUTS ===== -->
+<section id="shortcuts" class="section alt">
+  <div class="wrap narrow">
+    <header class="head reveal"><p class="kicker">Trelby-compatible · Customisable</p><h2>Keyboard shortcuts.</h2></header>
+    <div class="table reveal"><table>
+      <thead><tr><th scope="col">Keys</th><th scope="col">Action</th></tr></thead>
+      <tbody>
+      <tr><td><kbd>Enter</kbd> / <kbd>Tab</kbd></td><td>Next element (Trelby rules); Tab on an empty line changes its type</td></tr>
+      <tr><td><kbd>Alt+S</kbd></td><td>Scene heading</td></tr><tr><td><kbd>Alt+A</kbd></td><td>Action</td></tr>
+      <tr><td><kbd>Alt+C</kbd></td><td>Character</td></tr><tr><td><kbd>Alt+D</kbd></td><td>Dialogue</td></tr>
+      <tr><td><kbd>Alt+P</kbd></td><td>Parenthetical</td></tr><tr><td><kbd>Alt+T</kbd></td><td>Transition</td></tr>
+      <tr><td><kbd>Alt+H</kbd></td><td>Shot</td></tr><tr><td><kbd>Alt+B</kbd></td><td>Act break</td></tr>
+      <tr><td><kbd>Alt+N</kbd></td><td>Add note</td></tr><tr><td><kbd>Alt+G</kbd> / <kbd>Ctrl+G</kbd></td><td>Go to scene / page</td></tr>
+      <tr><td><kbd>F8</kbd></td><td>Spell check</td></tr><tr><td><kbd>Ctrl+N</kbd> / <kbd>O</kbd> / <kbd>S</kbd></td><td>New / Open / Save</td></tr>
+      <tr><td><kbd>Ctrl+P</kbd></td><td>Export PDF</td></tr><tr><td><kbd>Ctrl+W</kbd> / <kbd>Ctrl+Q</kbd></td><td>Close script / Quit</td></tr>
+      </tbody></table></div>
+    <p class="small center">Change any shortcut under Format → Keyboard Shortcuts.</p>
+  </div>
+</section>
+
+<!-- ===== FAQ ===== -->
+<section id="faq" class="section">
+  <div class="wrap narrow">
+    <header class="head reveal"><h2>Questions.</h2></header>
+    <div class="faq reveal">
 <details><summary>Is it free?</summary><p>Yes, completely free forever. No fee, no registration, no sign-up. Donations are optional.</p></details>
+<details><summary>Does it work offline?</summary><p>Yes, fully. Kathanam runs on your computer and needs no account or internet connection.</p></details>
 <details><summary>Why does Windows or macOS warn me?</summary><p>Kathanam isn't code-signed yet. On Windows, choose More info → Run anyway. On a Mac, right-click the app and choose Open the first time.</p></details>
 <details><summary>Was this called ScreenWriter Pro?</summary><p>Yes. From version 1.1.0 it is called Kathanam. Installing it updates ScreenWriter Pro in place, and all your scripts, settings and backups are kept.</p></details>
 <details><summary>Where are my backups?</summary><p>If you used the app before it was renamed, backups stay in <code>Documents\ScreenWriter Pro Backups</code>; new installs use <code>Documents\Kathanam Backups</code>. Use File → Restore From Backup.</p></details>
@@ -66,6 +213,25 @@
 <details><summary>Can I write stage plays or AV scripts?</summary><p>Yes. Choose the stage-play layout or the AV two-column view; both export to PDF.</p></details>
 <details><summary>Will my old scripts still open?</summary><p>Yes. Version 1.2 opens every .spw file made by earlier versions.</p></details>
 <details><summary>Is there cloud sync, collaboration or a mobile app?</summary><p>Not yet. Kathanam works offline on your computer; your scripts stay on your disk.</p></details>
-</div></section>
-<footer><div class="wrap">© 2026 Professor Pal · Kathanam · <a href="https://github.com/krish1830/kathanam/releases">All versions</a> · <a href="https://buymeacoffee.com/krishpaluri">Buy me a coffee</a> (optional)</div></footer>
-</body></html>
+    </div>
+  </div>
+</section>
+
+<!-- ===== SUPPORT ===== -->
+<section id="support" class="section support">
+  <div class="wrap narrow center reveal">
+    <img src="img/icon.svg" alt="" width="64" height="64">
+    <h2>Free forever. Made with care.</h2>
+    <p>If Kathanam helps your writing and you want to say thanks, you can buy me a coffee. It’s completely voluntary, and every feature works without it.</p>
+    <a class="btn btn-coffee btn-lg" href="https://buymeacoffee.com/krishpaluri">☕ Buy me a coffee</a>
+  </div>
+</section>
+</main>
+
+<footer class="foot"><div class="wrap foot-in">
+  <span class="brand"><img src="img/icon.svg" alt="" width="22" height="22"><span>Kathanam</span> <span lang="te" class="te-sm">కథనం</span></span>
+  <span>© 2026 Professor Pal · <a href="https://github.com/krish1830/kathanam/releases">All versions</a> · <a href="https://buymeacoffee.com/krishpaluri">Buy me a coffee</a> (optional)</span>
+</div></footer>
+<script src="main.js" defer></script>
+</body>
+</html>
